@@ -23,7 +23,6 @@ abstract public class AbstractWalker implements Runnable {
     protected volatile boolean running = false;
     protected boolean debug = false;
     protected final double p;
-    protected Set<AbstractWalker> stoppedWalkers;
 
     /**
      * Constructor
