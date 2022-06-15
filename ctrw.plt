@@ -4,4 +4,4 @@ set xlabel "{/:Italic x}"
 set ylabel "{/:Italic P}_{/:Italic x}"
 set title "Continuous Time Random Walk"
 set style fill solid border lc rgb "black"
-plot "ctrw3.txt" with boxes lw 2 notitle
+plot "ctrw.txt" with boxes lw 2 notitle
